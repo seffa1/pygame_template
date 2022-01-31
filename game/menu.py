@@ -36,7 +36,7 @@ class StartMenu:
         self.screen.fill((0, 0, 0))
 
         draw_text(self.screen,
-                  'City building tutorial',
+                  'Game Title Here',
                   100,
                   (255, 255, 255),
                   (0, self.screen_size[1]*0.3)

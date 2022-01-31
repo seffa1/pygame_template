@@ -27,16 +27,10 @@ class Game:
                     self.playing = False
 
     def update(self):
-        self.camera.update()
-        self.hud.update()
-        self.world.update(self.camera)
+        pass
 
     def draw(self):
         self.screen.fill((0, 0, 0))
-        self.world.draw(self.screen, self.camera)
-
-
-        self.hud.draw(self.screen)
 
         draw_text(
             self.screen,
