@@ -29,6 +29,7 @@ def main():
             game.run()
             # pause loop here
             playing = game_menu.run()
+            running = playing
 
 if __name__ == "__main__":
     main()
